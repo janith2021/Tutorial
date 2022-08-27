@@ -2,8 +2,6 @@ object test1 {
   def main(args: Array[String]): Unit ={
     println(prime(8))
     println(prime(5))
-    println(prime(-1))
-
   }
 
   def GCD(a:Int,b:Int): Int= b match{
